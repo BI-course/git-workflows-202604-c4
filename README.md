@@ -16,3 +16,19 @@ Refer to the files in the order specified below for more details:
 
 - [lab_instructions_part1.md](lab_instructions_part1.md)
 - [lab_instructions_part2.md](lab_instructions_part2.md)
+
+
+## Team Members and Roles
+
+ - 167284 - Nyaga Gacheru
+ - Role - Researching Data Sources One
+ - 169223 - Lukwago Bernard
+ - Role - Researching Data Governance
+ - 167753 - Clara Waithaka
+ - Role - Researchnig Star Schema
+ - 150367 - Christine Mungla
+ - Role - Researching Data SOurces Two
+ - 165828 - Dudi Daniella
+ - Role - Researching ELT ETL & EtLT
+ - 138772 - Eddie Karira
+ - Role - Updating project README
