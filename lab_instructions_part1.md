@@ -8,9 +8,9 @@ This lab is designed for a team of five members to practice **GitHub Flow** whil
 
 Before starting, review these three primary workflows used in the industry:
 
-* **GitHub Flow (Our Focus):** Ideal for agile teams and web applications. It relies on a single `main` branch that must always be in a deployable state. Feature branches are used for all changes.
-* **Git Flow:** A more structured approach with multiple long-lived branches (`main`, `dev`, `release`, `feature`, and `bug`). It is ideal for installable applications (like mobile apps) where multiple versions run simultaneously.
-* **Trunk-Based Development (TBD):** The current industry standard (2026) for large-scale SaaS. It uses direct commits to `main` or very short-lived feature branches (~4 hours) and relies on "feature flags" and bulletproof automated testing.
+- **GitHub Flow (Our Focus):** Ideal for agile teams and web applications. It relies on a single `main` branch that must always be in a deployable state. Feature branches are used for all changes.
+- **Git Flow:** A more structured approach with multiple long-lived branches (`main`, `dev`, `release`, `feature`, and `bug`). It is ideal for installable applications (like mobile apps) where multiple versions run simultaneously.
+- **Trunk-Based Development (TBD):** The current industry standard (2026) for large-scale SaaS. It uses direct commits to `main` or very short-lived feature branches (~4 hours) and relies on "feature flags" and bulletproof automated testing.
 
 All team members should clone the repository to their local machines:
 
@@ -25,13 +25,13 @@ All team members should clone the repository to their local machines:
 1. **Confirm that your Team Members are Collaborators:** Go to: **Settings > Collaborators**. You should see all five members listed with "Write" access or "Admin" access.
 
 2. **Configure Branch Protection:**
-    * Go to **Settings > Branches > Add branch ruleset**.
-    * Create a rule named `pr-and-1-approval-required-to-merge`.
-    * Set the enforcement status to **Active**.
-    * Include the default branch as the target.
-    * **Enable:** "Require a pull request before merging" and set "Required approvals" to **1**.
-    * This ensures that no team member can bypass the review process. At least 1 other team member must agree with the changes before they can be merged into `main`.
-    * Got to **Settings > Rulesets** and confirm that the new ruleset is active and correctly configured.
+   - Go to **Settings > Branches > Add branch ruleset**.
+   - Create a rule named `pr-and-1-approval-required-to-merge`.
+   - Set the enforcement status to **Active**.
+   - Include the default branch as the target.
+   - **Enable:** "Require a pull request before merging" and set "Required approvals" to **1**.
+   - This ensures that no team member can bypass the review process. At least 1 other team member must agree with the changes before they can be merged into `main`.
+   - Got to **Settings > Rulesets** and confirm that the new ruleset is active and correctly configured.
 
 ---
 
@@ -48,11 +48,11 @@ All team members should clone the repository to their local machines:
 
 1. Go to the **Issues** tab and click on **Milestones**.
 2. Create 3 milestones and:
-   * Assign appropriate due dates for each to align with the iterations you set up in the project.
-   * Add an appropriate description for each milestone to clarify the goals and expectations
-     * **50% Complete Milestone**
-     * **75% Complete Milestone**
-     * **100% Complete Milestone**
+   - Assign appropriate due dates for each to align with the iterations you set up in the project.
+   - Add an appropriate description for each milestone to clarify the goals and expectations
+     - **50% Complete Milestone**
+     - **75% Complete Milestone**
+     - **100% Complete Milestone**
 
 ---
 
@@ -68,11 +68,11 @@ Have a discussion as a team to determine the specific technical tasks that need 
 
 Example issues for the lab:
 
-* **Member 1:** Issue #1 - 50% Complete Milestone - Title: feature/lab-1/update-project-README. Description: Update the project's README with team roles.
-* **Member 2:** Issue #2 - 50% Complete Milestone - Title: feature/lab-1/research-on-data-sources. Description: Create a `data_source.md` file reviewing sources of data in a business.
-* **Member 3:** Issue #3 - 50% Complete Milestone - Title: feature/lab-1/research-on-star-schema. Description: Create a `warehouse_schema.md` describing a Star Schema.
-* **Member 4:** Issue #4 - 75% Complete Milestone - Title: feature/lab-1/research-on-ETL-ELT-EtLT. Description: Create a `data_pipeline.md` differentiating between ETL, ELT, and EtLT in the context of compliance with the legal requirements in an industry.
-* **Member 5:** Issue #5 - 100% Complete Milestone - Title: feature/lab-1/research-on-data-governance. Description: Add a `governance.md` file reviewing data governance and access to PII.
+- **Member 1:** Issue #1 - 50% Complete Milestone - Title: feature/lab-1/update-project-README. Description: Update the project's README with team roles.
+- **Member 2:** Issue #2 - 50% Complete Milestone - Title: feature/lab-1/research-on-data-sources. Description: Create a `data_source.md` file reviewing sources of data in a business.
+- **Member 3:** Issue #3 - 50% Complete Milestone - Title: feature/lab-1/research-on-star-schema. Description: Create a `warehouse_schema.md` describing a Star Schema.
+- **Member 4:** Issue #4 - 75% Complete Milestone - Title: feature/lab-1/research-on-ETL-ELT-EtLT. Description: Create a `data_pipeline.md` differentiating between ETL, ELT, and EtLT in the context of compliance with the legal requirements in an industry.
+- **Member 5:** Issue #5 - 100% Complete Milestone - Title: feature/lab-1/research-on-data-governance. Description: Add a `governance.md` file reviewing data governance and access to PII.
 
 ---
 
@@ -80,19 +80,19 @@ Example issues for the lab:
 
 1. Go to the **Projects** tab and open the "**202604 Business Intelligence Labs**" project. Navigate to the **My items** view where you can see all the issues in the backlog.
 2. For each issue, click on the issue title and assign it to the appropriate iteration based on its milestone. Example:
-   * Issues #1, #2, and #3 are planned for Iteration 1, which corresponds to the **50% Complete Milestone**.
-   * Issue #4 is planned for Iteration 2, which corresponds to the **75% Complete Milestone**.
-   * Issue #5 is planned for Iteration 3, which corresponds to the **100% Complete Milestone**.
+   - Issues #1, #2, and #3 are planned for Iteration 1, which corresponds to the **50% Complete Milestone**.
+   - Issue #4 is planned for Iteration 2, which corresponds to the **75% Complete Milestone**.
+   - Issue #5 is planned for Iteration 3, which corresponds to the **100% Complete Milestone**.
 
 You should see the issue under the **"current iteration"** tab of the project listed in the Backlog.
 
 Issues can move across 5 states by default: Backlog, Ready, In Progress, In Review, and Done.
 
-* **Backlog**: The issue is created but not yet started.
-* **Ready**: The issue is ready to be worked on but has not been started yet.
-* **In Progress**: The issue is currently being worked on.
-* **In Review**: The issue has been worked on and is being reviewed by others, i.e., there is a code review before the Pull Request is approved and merged.
-* **Done**: The issue has been completed, approved, and merged into the main branch through the Pull Request process.
+- **Backlog**: The issue is created but not yet started.
+- **Ready**: The issue is ready to be worked on but has not been started yet.
+- **In Progress**: The issue is currently being worked on.
+- **In Review**: The issue has been worked on and is being reviewed by others, i.e., there is a code review before the Pull Request is approved and merged.
+- **Done**: The issue has been completed, approved, and merged into the main branch through the Pull Request process.
 
 The team members should have daily brief meetings to discuss the status of their assigned issues and update the status accordingly in the project board. This helps in tracking the progress of each task and ensures that everyone is on the same page regarding the project's timeline and deliverables.
 
@@ -108,13 +108,13 @@ Each member must follow these steps for their respective issue. **Member 1** wil
 
 On your local machine, create and switch to a new branch for your task.
 
-*Note: The branch name should follow the format `feature/lab-number/description` to maintain clarity and consistency across the team. For example, if you are working on an Issue in Lab 3, then your branch name could be `feature/lab-3/data-source`. This naming convention helps everyone in the team quickly understand the purpose of the branch and its connection to the corresponding lab.*
+_Note: The branch name should follow the format `feature/lab-number/description` to maintain clarity and consistency across the team. For example, if you are working on an Issue in Lab 3, then your branch name could be `feature/lab-3/data-source`. This naming convention helps everyone in the team quickly understand the purpose of the branch and its connection to the corresponding lab._
 
 ```bash
 git checkout -b feature/lab-number/description
 ```
 
-*Note: A branch is an independent line of development used for team governance*.
+_Note: A branch is an independent line of development used for team governance_.
 
 ### Step B: Working and Committing
 
@@ -156,7 +156,7 @@ What would happen without this change?>
 Related issue: #<issue-number>
 ```
 
-Why the **imperative mood**? Git itself uses it — "Merge branch", "Revert commit", "Add file". Reading your message alongside Git's own messages should feel consistent. Write "Add feature" rather than "*Added* feature" or "*Adding* feature".
+Why the **imperative mood**? Git itself uses it — "Merge branch", "Revert commit", "Add file". Reading your message alongside Git's own messages should feel consistent. Write "Add feature" rather than "_Added_ feature" or "_Adding_ feature".
 
 Example:
 
@@ -183,15 +183,15 @@ git push origin feature/lab-number/description
 ```
 
 1. Go to GitHub (the website) and open a **Pull Request (PR)** from your branch to `main`. There should be a green button prompting you to "Compare & pull request" after pushing. If not, then you can navigate to the "**Pull requests**" tab and click on "New pull request" to select your branch and create the PR.
-2. Name the PR appropriately, e.g., "*Merge feature/lab-1/update-project-readme into main*" and add a detailed description of the changes made. This description should provide context for the reviewer, explaining the motivation behind the changes and any relevant details that would help them understand the purpose of the PR.
+2. Name the PR appropriately, e.g., "_Merge feature/lab-1/update-project-readme into main_" and add a detailed description of the changes made. This description should provide context for the reviewer, explaining the motivation behind the changes and any relevant details that would help them understand the purpose of the PR.
 3. Link the PR to the corresponding issue by including `#issue-number` in the PR description. This creates a connection between the changes and the issue it addresses. A common way to include the issue number is to use the text "`Closes #issue-number`" in the PR description, e.g., "`Closes #2`". This not only links the PR to the issue but also automatically closes the issue when the PR is merged.
 4. Assign a teammate to perform a **Code Review**. If this was your research/project, then your research supervisor would be the assigned reviewer. The author of the PR should not merge their own PR. This is a critical aspect of team governance and ensures that all changes are reviewed by at least one other team member before being integrated into the main branch.
 5. The assignees can be anyone who contributed to the commits in the branch, the label can be "**enhancement**" for a new feature, the projects should be the 202604 Business Intelligence Labs, and the milestone should correspond to the one assigned to the issue that the feature branch addresses.
 
 ### Step D: The Code Review
 
-* **The Reviewer:** Check the **Files changed** for clarity and accuracy based on the source material. Approve the PR if it meets requirements. If not, request changes and provide specific feedback in the comments.
-* **The Author:** Address any feedback provided during the review. If it is approved, then the author can proceed to merge the PR. If changes are requested, make the necessary updates and push them to the same branch. The PR will automatically update with the new commits, and the reviewer can re-review until it is approved.
+- **The Reviewer:** Check the **Files changed** for clarity and accuracy based on the source material. Approve the PR if it meets requirements. If not, request changes and provide specific feedback in the comments.
+- **The Author:** Address any feedback provided during the review. If it is approved, then the author can proceed to merge the PR. If changes are requested, make the necessary updates and push them to the same branch. The PR will automatically update with the new commits, and the reviewer can re-review until it is approved.
 
 ### Step E: Merging **WITHOUT** Fast-Forward (`--no-ff`)
 
@@ -301,8 +301,8 @@ The actual discipline is to understand both sides of the conflict well enough to
 
 While we used **Git Merge (`--no-ff`)**, be aware of these alternatives:
 
-* **Git Rebase:** Rewrites history by moving the base of your branch to the tip of `main`. It creates a clean, linear history but reduces traceability.
-* **Squash Commits:** Combines all commits from a feature branch into one single commit on `main`. This is useful for cleaning up "messy" intermediate commits but discards individual commit details.
+- **Git Rebase:** Rewrites history by moving the base of your branch to the tip of `main`. It creates a clean, linear history but reduces traceability.
+- **Squash Commits:** Combines all commits from a feature branch into one single commit on `main`. This is useful for cleaning up "messy" intermediate commits but discards individual commit details.
 
 ---
 
@@ -310,23 +310,23 @@ While we used **Git Merge (`--no-ff`)**, be aware of these alternatives:
 
 **All Members** should practice viewing the "technical lab notes" of the project to ensure the process is transparent.
 
-* Go back to the main branch: `git checkout main`
-* Fetch the latest changes: `git pull origin main`
-* Confirm that the remote branch is up to date with the branch in the origin by running `git status`
-* Then run `git log --oneline --graph` to view the repository history. You should see a series of "knots" representing the deliberate merge commits made by each team member.
+- Go back to the main branch: `git checkout main`
+- Fetch the latest changes: `git pull origin main`
+- Confirm that the remote branch is up to date with the branch in the origin by running `git status`
+- Then run `git log --oneline --graph` to view the repository history. You should see a series of "knots" representing the deliberate merge commits made by each team member.
 
-* **View a Graph of Merges:** To see how branches have evolved and joined, run:
+- **View a Graph of Merges:** To see how branches have evolved and joined, run:
 
-    ```bash
-    git log --merges
-    ```
+  ```bash
+  git log --merges
+  ```
 
-    *Note: This provides a quick overview of the branch evolution and is ideal for supervisors to see your collaborative process.*
+  _Note: This provides a quick overview of the branch evolution and is ideal for supervisors to see your collaborative process._
 
-* **Inspect Recent Changes:** To see the full details of the most recent commit, including the reasoning in the commit body, use:
+- **Inspect Recent Changes:** To see the full details of the most recent commit, including the reasoning in the commit body, use:
 
-    ```bash
-    git show HEAD
-    ```
+  ```bash
+  git show HEAD
+  ```
 
-    *Note: The **HEAD** pointer identifies your current location in the repository's history.*
+  _Note: The **HEAD** pointer identifies your current location in the repository's history._
