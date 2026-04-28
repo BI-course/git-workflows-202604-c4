@@ -32,3 +32,4 @@ Refer to the files in the order specified below for more details:
  - Role - Researching ELT ETL & EtLT
  - 138772 - Eddie Karira
  - Role - Updating project README
+Project lead: Member 1 — responsible for overall coordination.
