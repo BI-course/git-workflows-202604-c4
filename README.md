@@ -20,6 +20,7 @@ Refer to the files in the order specified below for more details:
 
 ## Team Members and Roles
 
+ feature/lab-1/research-on-ETL-ELT-EtLT
 - 167284 - Nyaga Gacheru
 - Role - Researching Data Sources One
 - 169223 - Lukwago Bernard
@@ -35,3 +36,16 @@ Refer to the files in the order specified below for more details:
   Project lead: Member 1 — responsible for overall coordination.
 
 Project lead: Member 5 — responsible for governance and audit.
+ - 167284 - Nyaga Gacheru
+ - Role - Researching Data Sources One
+ - 169223 - Lukwago Bernard
+ - Role - Researching Data Governance
+ - 167753 - Clara Waithaka
+ - Role - Researchnig Star Schema
+ - 150367 - Christine Mungla
+ - Role - Researching Data SOurces Two
+ - 165828 - Dudi Daniella
+ - Role - Researching ELT ETL & EtLT
+ - 138772 - Eddie Karira
+ - Role - Updating project README
+Project lead: Member 1 — responsible for overall coordination.
